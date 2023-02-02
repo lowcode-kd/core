@@ -1,0 +1,32 @@
+{
+  "name": "@kd/compiler-core",
+  "version": "0.0.1",
+  "description": "@kd/compiler-core",
+  "main": "index.js",
+  "module": "dist/compiler-core.esm-bundler.js",
+  "types": "dist/compiler-core.d.ts",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "buildOptions": {
+    "name": "KdCompilerCore",
+    "compat": true,
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowcode-kd/core.git",
+    "directory": "packages/compiler-core"
+  },
+  "keywords": [
+    "kd"
+  ],
+  "author": "释小枫",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
